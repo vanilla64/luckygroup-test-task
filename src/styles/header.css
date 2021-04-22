@@ -1,0 +1,10 @@
+.header {
+  padding: 45px 0 40px;
+  border-bottom: solid 1px rgba(84, 84, 84, .5);
+  transition: .3s;
+}
+
+.header__title {
+  margin: 0;
+  font-size: 46px;
+}
