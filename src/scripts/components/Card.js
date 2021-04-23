@@ -26,6 +26,5 @@ export class Card {
     this._cardTitle.textContent = title
 
     return this._card
-
   }
 }

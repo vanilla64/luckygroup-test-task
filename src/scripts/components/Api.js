@@ -3,8 +3,8 @@ export class Api{
     this._url = url
   }
 
-  getCards() {
-    return fetch(`${this._url}/photos`)
+  getCards(pageNum, limit) {
+    return fetch(`${this._url}/photos?_page=${pageNum}&_limit=${limit}`)
       .then(res => {
         if (res.ok) return res.json()
         return Promise.reject(`Ошибка: ${res.status}`)

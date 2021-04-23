@@ -1,0 +1,13 @@
+.no-data {
+  width: 73.5%;
+  margin: 0 auto;
+  display: none;
+}
+
+.no-data__text {
+  font-size: 34px;
+}
+
+.no-data_visible {
+  display: block;
+}

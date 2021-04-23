@@ -1,0 +1,17 @@
+.loading {
+  display: none;
+  width: 73.5%;
+  margin: 0 auto;
+  transition: .3s;
+  position: fixed;
+  top: 50%;
+  left: calc(50% - 110px);
+}
+
+.loading__text {
+  font-size: 34px;
+}
+
+.loading_visible {
+  display: flex;
+}
